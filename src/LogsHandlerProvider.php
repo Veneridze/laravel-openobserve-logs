@@ -10,7 +10,7 @@ class LogsHandlerProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('laravel-openobserver-logs');
+            ->name('laravel-openobserve-logs');
     }
 }
 //->hasConfigFile()
